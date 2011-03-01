@@ -6,7 +6,7 @@ Summary:        Cuneiform is an multi-language OCR system.
 Group:          User Interface/Desktops
 License:        BSD
 URL:            https://launchpad.net/cuneiform-linux
-Source0:        http://launchpad.net/cuneiform-linux/%{version}/%{version}/+download/cuneiform-linux-%{version}.tar.bz2
+Source0:        http://launchpad.net/cuneiform-linux/1.0/1.0/+download/cuneiform-linux-%{version}.tar.bz2
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 
 BuildRequires:  cmake
