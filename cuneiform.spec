@@ -1,6 +1,6 @@
 Name:           cuneiform
 Version:        1.1.0
-Release:        1%{?dist}
+Release:        1%{?dist}.R
 Summary:        Multi-language OCR system
 
 Group:          User Interface/Desktops
@@ -72,7 +72,7 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
-* Wed Apr 20 2011 Arkady L. Shane <ashejn@yandex-team.ru> - 1.1.0-1
+* Wed Apr 20 2011 Arkady L. Shane <ashejn@yandex-team.ru> - 1.1.0-1.R
 - update to 1.1.0
 
 * Wed Nov  3 2010 Arkady L. Shane <ashejn@yandex-team.ru> - 1.0.0-2
